@@ -1,0 +1,38 @@
+*{
+    padding: 0px;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: sans-serif;
+    color: black;
+}
+html, body{
+    width: 100%;
+}
+body{
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 70% 1fr;
+    grid-template-rows: 150px 1fr 200px;
+    grid-template-areas: "header header"
+                        "section aside"
+                        "footer footer";
+}
+.header{
+    grid-area: header;
+    border: 1px dashed black;
+
+}
+.section{
+    grid-area: section;
+    border: 1px dashed black;
+}
+.aside{
+    grid-area: aside;
+    border: 1px dashed black;
+}
+.footer{
+    grid-area: footer;
+    border: 1px dashed black;
+}
