@@ -12,8 +12,7 @@ html, body{
 }
 body{
     min-height: 100vh;
-    background-image: url(img/hero.jpg);
-    border: 4px solid greenyellow;
+    background-image: url(img/newhero.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
