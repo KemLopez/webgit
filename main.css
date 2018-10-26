@@ -49,3 +49,14 @@ body{
     grid-area: footer;
     border: 1px dashed black;
 }
+@media screen and (max-width: 760px){
+    body{
+    grid-template-columns: 95%;
+    grid-template-rows: 130px 50px 180px 120px;
+    grid-template-areas:"header"
+                        "aside"
+                        "section"
+                        "footer";
+    justify-content: center;                   
+    }
+}
